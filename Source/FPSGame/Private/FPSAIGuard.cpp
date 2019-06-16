@@ -166,7 +166,7 @@ void AFPSAIGuard::MoveToNextPatrolPoint()
 		CurrentPatrolPoint = SecondPatrolPoint;
 	}
 
-	UE_LOG(LogTemp, Warning, TEXT("I am moving."));
+	//UE_LOG(LogTemp, Warning, TEXT("I am moving."));
 
 	UNavigationSystem::SimpleMoveToActor(GetController(), CurrentPatrolPoint);
 }
